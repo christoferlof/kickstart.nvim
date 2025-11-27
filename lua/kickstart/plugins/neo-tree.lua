@@ -11,13 +11,13 @@ return {
   },
   lazy = false,
   keys = {
-    { '<C-n>', ':Neotree reveal<CR>', desc = 'NeoTree reveal', silent = true },
+    { '<C-e>', ':Neotree reveal<CR>', desc = 'NeoTree reveal', silent = true },
   },
   opts = {
     filesystem = {
       window = {
         mappings = {
-          ['<C-n>'] = 'close_window',
+          ['<C-e>'] = 'close_window',
         },
       },
     },
